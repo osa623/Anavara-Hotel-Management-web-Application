@@ -8,11 +8,33 @@ export default {
   ],
   theme: {
     extend: {
+      // Custom colors
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        primary: "#FFFFFF",
+        secondary: "#000000",
+        navy: "#4C585B",
+        gold: "#4a5759",
+        goldd :"#CBA328"
       },
+      fontFamily:{
+
+        poppins: ['Poppins', 'sans-serif'],
+        russoone: ['Russo One', 'sans-serif'],
+        kdamThmorPro: ['Kdam Thmor Pro', 'sans-serif'],
+        lorniasolid:['Londrina Solid', 'sans-serif'],
+        bebasneue:['Bebas Neue', 'sans-serif'],
+        bricolagegrotesque:['Bricolage Grotesque', 'sans-serif'],
+        kanit:['Kanit', 'sans-serif'],
+        dmsans:['DM Sans', 'sans-serif'],
+        londrina:['Londrina Solid', 'sans-serif'],
+        atma:['Atma', 'sans serif'],
+        alfaSlabOne: ['Alfa Slab One', 'cursive'],
+        bubblerOne: ['Bubbler One', 'sans-serif'],
+  
+      },
+
     },
   },
+
   plugins: [],
 } satisfies Config;
