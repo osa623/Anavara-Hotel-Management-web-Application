@@ -321,7 +321,7 @@ const Page: React.FC = () => {
                                                       <p className='text-white font-kanit text-center px-4 lg:w-[40vw] lg:mt-5'
                                                       style={{
                                                         fontWeight:'100'
-                                                      }}>Welcome to Anavara Heavan in Spain, where tradition meets sophistication. Located in Spain's most iconic destinations, our flagship hotel blends modern luxury with the vibrant spirit of Spanish culture. Indulge in exceptional hospitality, breathtaking architecture, and authentic culinary delights for an unforgettable Spanish experience.</p>
+                                                      }}>Welcome to Anavara Heavan in Spain, where tradition meets sophistication. Located in Spains most iconic destinations, our flagship hotel blends modern luxury with the vibrant spirit of Spanish culture. Indulge in exceptional hospitality, breathtaking architecture, and authentic culinary delights for an unforgettable Spanish experience.</p>
                                                      </div>
                                         </div>
 
@@ -496,7 +496,7 @@ const Page: React.FC = () => {
                                     <option value="USD">USD</option>
                                     <option value="LKR">LKR</option>
                                 </select>
-                                <h2 className='font-kanit text-md text-goldd'>
+                                <h2 className='font-kanit text-lg text-goldd'>
                                   {currency === 'USD' ? room.priceUSD : room.priceLKR}
                                 </h2>
                               </div>
